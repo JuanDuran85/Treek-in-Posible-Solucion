@@ -1,0 +1,32 @@
+.a-bar {
+  animation: show 3s infinite;
+}
+
+.b-bar {
+  animation: show2 4s infinite;
+}
+
+// Animations -  Show
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes show2 {
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  0% {
+    opacity: 1;
+  }
+}

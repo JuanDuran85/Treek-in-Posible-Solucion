@@ -1,0 +1,16 @@
+.button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: white;
+  background-color: #2ab7ca;
+  border: none;
+
+  &_small {
+    padding: .3rem 1.5rem;
+  }
+
+  &_large {
+    width: 100%;
+    padding: .5rem 1rem
+  }
+}
